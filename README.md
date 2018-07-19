@@ -1,7 +1,10 @@
 # YSStaticTableViewController
 只需一个数组即可快速搭建个人中心以及设置界面
+
 如下图：
+
 ![](http://ozhr26838.bkt.clouddn.com/hexo/statictablevc.gif)
+
 * 支持自定义cell
 * 支持网络请求+本地数据
 
