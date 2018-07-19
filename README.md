@@ -8,6 +8,13 @@
 * 支持自定义cell
 * 支持网络请求+本地数据
 
+#### 引用
+方法1. CocoaPods
+```
+pod 'YSStaticTableViewController'
+```
+方法2. 直接拖入项目中
+
 简单讲解下使用说明吧，其实看Demo就够了...
 #### 普通使用
 1. 新建VC继承 YSStaticTableViewController
