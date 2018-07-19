@@ -97,3 +97,8 @@ vm0.cellHeight = 80;
 vm0.cellType = YSStaticCellTypeCustom;
 ```
 3. 然后其他操作如普通使用
+
+#### 随便说说
+0. 有兴趣请`star`
+1. 项目刚写，可能存在问题，如果有任何问题，请提 `issue`
+2. 如果有好的意见也请提 `issue`
