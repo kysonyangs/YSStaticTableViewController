@@ -18,11 +18,11 @@
 		48F9F929210032E200C89F36 /* YSAvatarModel.m in Sources */ = {isa = PBXBuildFile; fileRef = 48F9F928210032E200C89F36 /* YSAvatarModel.m */; };
 		48F9F92C210032FC00C89F36 /* YSAvatorCell.m in Sources */ = {isa = PBXBuildFile; fileRef = 48F9F92B210032FC00C89F36 /* YSAvatorCell.m */; };
 		48F9F92F21003D0B00C89F36 /* WXInfoViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 48F9F92E21003D0B00C89F36 /* WXInfoViewController.m */; };
-		48F9F93C2100604A00C89F36 /* arrow@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 48F9F9332100604A00C89F36 /* arrow@2x.png */; };
 		48F9F93D2100604A00C89F36 /* YSStaticCellModel.m in Sources */ = {isa = PBXBuildFile; fileRef = 48F9F9352100604A00C89F36 /* YSStaticCellModel.m */; };
 		48F9F93E2100604A00C89F36 /* YSStaticSectionModel.m in Sources */ = {isa = PBXBuildFile; fileRef = 48F9F9372100604A00C89F36 /* YSStaticSectionModel.m */; };
 		48F9F93F2100604A00C89F36 /* YSStaticTableViewCell.m in Sources */ = {isa = PBXBuildFile; fileRef = 48F9F9392100604A00C89F36 /* YSStaticTableViewCell.m */; };
 		48F9F9402100604A00C89F36 /* YSStaticTableViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 48F9F93B2100604A00C89F36 /* YSStaticTableViewController.m */; };
+		48F9F96421007FFC00C89F36 /* YSStaticTableViewController.bundle in Resources */ = {isa = PBXBuildFile; fileRef = 48F9F96321007FFC00C89F36 /* YSStaticTableViewController.bundle */; };
 		667092DF0D6427B7E8003D8A /* Pods_YSStaticTableViewControllerDemo.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = CDD8D3448B8EF1726CD7AA4D /* Pods_YSStaticTableViewControllerDemo.framework */; };
 /* End PBXBuildFile section */
 
@@ -47,7 +47,6 @@
 		48F9F92B210032FC00C89F36 /* YSAvatorCell.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = YSAvatorCell.m; sourceTree = "<group>"; };
 		48F9F92D21003D0B00C89F36 /* WXInfoViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = WXInfoViewController.h; sourceTree = "<group>"; };
 		48F9F92E21003D0B00C89F36 /* WXInfoViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = WXInfoViewController.m; sourceTree = "<group>"; };
-		48F9F9332100604A00C89F36 /* arrow@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "arrow@2x.png"; sourceTree = "<group>"; };
 		48F9F9342100604A00C89F36 /* YSStaticCellModel.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = YSStaticCellModel.h; sourceTree = "<group>"; };
 		48F9F9352100604A00C89F36 /* YSStaticCellModel.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = YSStaticCellModel.m; sourceTree = "<group>"; };
 		48F9F9362100604A00C89F36 /* YSStaticSectionModel.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = YSStaticSectionModel.h; sourceTree = "<group>"; };
@@ -56,6 +55,7 @@
 		48F9F9392100604A00C89F36 /* YSStaticTableViewCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = YSStaticTableViewCell.m; sourceTree = "<group>"; };
 		48F9F93A2100604A00C89F36 /* YSStaticTableViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = YSStaticTableViewController.h; sourceTree = "<group>"; };
 		48F9F93B2100604A00C89F36 /* YSStaticTableViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = YSStaticTableViewController.m; sourceTree = "<group>"; };
+		48F9F96321007FFC00C89F36 /* YSStaticTableViewController.bundle */ = {isa = PBXFileReference; lastKnownFileType = "wrapper.plug-in"; path = YSStaticTableViewController.bundle; sourceTree = "<group>"; };
 		A14012680E55BED7E874C79C /* Pods-YSStaticTableViewControllerDemo.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-YSStaticTableViewControllerDemo.debug.xcconfig"; path = "Pods/Target Support Files/Pods-YSStaticTableViewControllerDemo/Pods-YSStaticTableViewControllerDemo.debug.xcconfig"; sourceTree = "<group>"; };
 		CDD8D3448B8EF1726CD7AA4D /* Pods_YSStaticTableViewControllerDemo.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_YSStaticTableViewControllerDemo.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		FA6F0E0880DB3D8996FC3254 /* Pods-YSStaticTableViewControllerDemo.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-YSStaticTableViewControllerDemo.release.xcconfig"; path = "Pods/Target Support Files/Pods-YSStaticTableViewControllerDemo/Pods-YSStaticTableViewControllerDemo.release.xcconfig"; sourceTree = "<group>"; };
@@ -153,7 +153,7 @@
 		48F9F9312100604A00C89F36 /* YSStaticTableViewController */ = {
 			isa = PBXGroup;
 			children = (
-				48F9F9322100604A00C89F36 /* Resources */,
+				48F9F96321007FFC00C89F36 /* YSStaticTableViewController.bundle */,
 				48F9F9342100604A00C89F36 /* YSStaticCellModel.h */,
 				48F9F9352100604A00C89F36 /* YSStaticCellModel.m */,
 				48F9F9362100604A00C89F36 /* YSStaticSectionModel.h */,
@@ -165,14 +165,6 @@
 			);
 			name = YSStaticTableViewController;
 			path = ../../YSStaticTableViewController;
-			sourceTree = "<group>";
-		};
-		48F9F9322100604A00C89F36 /* Resources */ = {
-			isa = PBXGroup;
-			children = (
-				48F9F9332100604A00C89F36 /* arrow@2x.png */,
-			);
-			path = Resources;
 			sourceTree = "<group>";
 		};
 		8AB3C9F6E3303CD0797082A9 /* Pods */ = {
@@ -252,8 +244,8 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				48F9F93C2100604A00C89F36 /* arrow@2x.png in Resources */,
 				48E2CA1920FF05300071D00D /* LaunchScreen.storyboard in Resources */,
+				48F9F96421007FFC00C89F36 /* YSStaticTableViewController.bundle in Resources */,
 				48E2CA1620FF05300071D00D /* Assets.xcassets in Resources */,
 				48E2CA1420FF05300071D00D /* Main.storyboard in Resources */,
 			);

@@ -167,7 +167,7 @@
 
 - (UIImageView *)indicatorArrow {
     if (!_indicatorArrow) {
-        _indicatorArrow = [[UIImageView alloc] initWithImage:[UIImage imageNamed:@"arrow"]];
+        _indicatorArrow = [[UIImageView alloc] initWithImage:[UIImage imageNamed:@"YSStaticTableViewController.bundle/arrow@2x.png"]];
     }
     return _indicatorArrow;
 }

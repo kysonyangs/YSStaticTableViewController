@@ -71,7 +71,7 @@
 
 - (UIImageView *)avatarIndicatorImageView {
     if (!_avatarIndicatorImageView) {
-        _avatarIndicatorImageView = [[UIImageView alloc] initWithImage:[UIImage imageNamed:@"arrow"]];
+        _avatarIndicatorImageView = [[UIImageView alloc] initWithImage:[UIImage imageNamed:@"YSStaticTableViewController.bundle/arrow@2x.png"]];
         _avatarIndicatorImageView.frame = CGRectMake([UIScreen mainScreen].bounds.size.width - 15 - _avatarIndicatorImageView.bounds.size.width, (self.cellModel.cellHeight - _avatarIndicatorImageView.bounds.size.height)/2, _avatarIndicatorImageView.bounds.size.width, _avatarIndicatorImageView.bounds.size.height);
     }
     
