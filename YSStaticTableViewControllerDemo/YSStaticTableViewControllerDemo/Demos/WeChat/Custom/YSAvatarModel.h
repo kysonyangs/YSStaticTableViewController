@@ -10,7 +10,6 @@
 
 @interface YSAvatarModel : YSStaticCellModel
 
-// =============== 自定义cell的数据放在这里 =============== //
 @property (nonatomic, strong) UIImage *avatarImage;
 @property (nonatomic, strong) UIImage *codeImage;
 @property (nonatomic, copy)   NSString *userName;
