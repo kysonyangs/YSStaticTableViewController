@@ -28,6 +28,16 @@ static inline CGSize YSTitleSize(NSString *title, UIFont *font, CGFloat maxWidth
     }
     return self;
 }
+
+- (void)setCellType:(YSStaticCellType)cellType {
+    _cellType = cellType;
+    
+    if (cellType == YSStaticCellTypeButton) {
+        self.cellIdentifier = @"buttonCell";
+        self.cellClassName = @"YSStaticButtonCell";
+    }
+}
+
 @end
 
 @interface YSStaticDefaultModel ()
@@ -68,13 +78,6 @@ static inline CGSize YSTitleSize(NSString *title, UIFont *font, CGFloat maxWidth
     _titleSize = [self sizeForTitle:title withFont:self.titleFont];
     if (_titleSize.width > _titleMaxWidth) {
         _titleSize.width = _titleMaxWidth;
-    }
-}
-
-- (void)setCellType:(YSStaticCellType)cellType {
-    if (cellType == YSStaticCellTypeButton) {
-        self.cellIdentifier = @"buttonCell";
-        self.cellClassName = @"YSStaticButtonCell";
     }
 }
 
