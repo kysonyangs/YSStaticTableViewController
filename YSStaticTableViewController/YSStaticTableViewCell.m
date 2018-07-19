@@ -7,6 +7,7 @@
 //
 
 #import "YSStaticTableViewCell.h"
+#import <SDWebImage/UIImageView+WebCache.h>
 
 #define YSScreenWidth      [UIScreen mainScreen].bounds.size.width
 #define YSLeftGap 15
@@ -60,12 +61,23 @@
         self.indicatorLabel.text = self.cellModel.indicatorTitle;
     }
     
+    UIImage *indicatorPlaceImage;
     if (self.cellModel.indicatorImageName) {
-        self.indicatorImageView.image = [UIImage imageNamed:self.cellModel.indicatorImageName];
+        indicatorPlaceImage = [UIImage imageNamed:self.cellModel.indicatorImageName];
+        self.indicatorImageView.image = indicatorPlaceImage;
     }
     
+    if (self.cellModel.indicatorImageUrl.length > 0) {
+        [self.indicatorImageView sd_setImageWithURL:[NSURL URLWithString:self.cellModel.indicatorImageUrl] placeholderImage:indicatorPlaceImage];
+    }
+    
+    UIImage *titlePlaceImage;
     if (self.cellModel.titleImageName) {
-        self.titleImageView.image = [UIImage imageNamed:self.cellModel.titleImageName];
+        titlePlaceImage = [UIImage imageNamed:self.cellModel.titleImageName];
+        self.titleImageView.image = titlePlaceImage;
+    }
+    if (self.cellModel.titleImageUrl.length > 0) {
+        [self.titleImageView sd_setImageWithURL:[NSURL URLWithString:self.cellModel.titleImageUrl] placeholderImage:titlePlaceImage];
     }
 }
 

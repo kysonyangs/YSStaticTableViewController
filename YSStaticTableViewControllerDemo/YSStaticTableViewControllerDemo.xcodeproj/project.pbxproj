@@ -23,6 +23,7 @@
 		48F9F93E2100604A00C89F36 /* YSStaticSectionModel.m in Sources */ = {isa = PBXBuildFile; fileRef = 48F9F9372100604A00C89F36 /* YSStaticSectionModel.m */; };
 		48F9F93F2100604A00C89F36 /* YSStaticTableViewCell.m in Sources */ = {isa = PBXBuildFile; fileRef = 48F9F9392100604A00C89F36 /* YSStaticTableViewCell.m */; };
 		48F9F9402100604A00C89F36 /* YSStaticTableViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 48F9F93B2100604A00C89F36 /* YSStaticTableViewController.m */; };
+		667092DF0D6427B7E8003D8A /* Pods_YSStaticTableViewControllerDemo.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = CDD8D3448B8EF1726CD7AA4D /* Pods_YSStaticTableViewControllerDemo.framework */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -55,6 +56,9 @@
 		48F9F9392100604A00C89F36 /* YSStaticTableViewCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = YSStaticTableViewCell.m; sourceTree = "<group>"; };
 		48F9F93A2100604A00C89F36 /* YSStaticTableViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = YSStaticTableViewController.h; sourceTree = "<group>"; };
 		48F9F93B2100604A00C89F36 /* YSStaticTableViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = YSStaticTableViewController.m; sourceTree = "<group>"; };
+		A14012680E55BED7E874C79C /* Pods-YSStaticTableViewControllerDemo.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-YSStaticTableViewControllerDemo.debug.xcconfig"; path = "Pods/Target Support Files/Pods-YSStaticTableViewControllerDemo/Pods-YSStaticTableViewControllerDemo.debug.xcconfig"; sourceTree = "<group>"; };
+		CDD8D3448B8EF1726CD7AA4D /* Pods_YSStaticTableViewControllerDemo.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_YSStaticTableViewControllerDemo.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		FA6F0E0880DB3D8996FC3254 /* Pods-YSStaticTableViewControllerDemo.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-YSStaticTableViewControllerDemo.release.xcconfig"; path = "Pods/Target Support Files/Pods-YSStaticTableViewControllerDemo/Pods-YSStaticTableViewControllerDemo.release.xcconfig"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -62,6 +66,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				667092DF0D6427B7E8003D8A /* Pods_YSStaticTableViewControllerDemo.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -82,6 +87,8 @@
 			children = (
 				48E2CA0B20FF052F0071D00D /* YSStaticTableViewControllerDemo */,
 				48E2CA0A20FF052F0071D00D /* Products */,
+				8AB3C9F6E3303CD0797082A9 /* Pods */,
+				9D65EBDF1E3130E4A61A72D2 /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -168,6 +175,23 @@
 			path = Resources;
 			sourceTree = "<group>";
 		};
+		8AB3C9F6E3303CD0797082A9 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				A14012680E55BED7E874C79C /* Pods-YSStaticTableViewControllerDemo.debug.xcconfig */,
+				FA6F0E0880DB3D8996FC3254 /* Pods-YSStaticTableViewControllerDemo.release.xcconfig */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
+		9D65EBDF1E3130E4A61A72D2 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				CDD8D3448B8EF1726CD7AA4D /* Pods_YSStaticTableViewControllerDemo.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
@@ -175,9 +199,11 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 48E2CA1F20FF05300071D00D /* Build configuration list for PBXNativeTarget "YSStaticTableViewControllerDemo" */;
 			buildPhases = (
+				845D3F3E659583600E422BE3 /* [CP] Check Pods Manifest.lock */,
 				48E2CA0520FF052F0071D00D /* Sources */,
 				48E2CA0620FF052F0071D00D /* Frameworks */,
 				48E2CA0720FF052F0071D00D /* Resources */,
+				80CBAC606BD8F39AD8463040 /* [CP] Embed Pods Frameworks */,
 			);
 			buildRules = (
 			);
@@ -234,6 +260,45 @@
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		80CBAC606BD8F39AD8463040 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+				"${SRCROOT}/Pods/Target Support Files/Pods-YSStaticTableViewControllerDemo/Pods-YSStaticTableViewControllerDemo-frameworks.sh",
+				"${BUILT_PRODUCTS_DIR}/SDWebImage/SDWebImage.framework",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputPaths = (
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/SDWebImage.framework",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-YSStaticTableViewControllerDemo/Pods-YSStaticTableViewControllerDemo-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		845D3F3E659583600E422BE3 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-YSStaticTableViewControllerDemo-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
 
 /* Begin PBXSourcesBuildPhase section */
 		48E2CA0520FF052F0071D00D /* Sources */ = {
@@ -383,6 +448,7 @@
 		};
 		48E2CA2020FF05300071D00D /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = A14012680E55BED7E874C79C /* Pods-YSStaticTableViewControllerDemo.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
@@ -397,6 +463,7 @@
 		};
 		48E2CA2120FF05300071D00D /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = FA6F0E0880DB3D8996FC3254 /* Pods-YSStaticTableViewControllerDemo.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;

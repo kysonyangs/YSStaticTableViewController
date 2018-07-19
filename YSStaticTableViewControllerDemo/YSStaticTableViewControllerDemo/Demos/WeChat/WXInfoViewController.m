@@ -27,11 +27,13 @@
     model0.cellHeight = 80;
     model0.title = @"头像";
     model0.indicatorImageName = @"avatar";
+    model0.indicatorImageUrl = @"https://img3.duitang.com/uploads/item/201508/07/20150807082213_AcdWu.jpeg";
     model0.indicatorImageSize = CGSizeMake(60, 60);
     
     YSStaticDefaultModel *model1 = [[YSStaticDefaultModel alloc] init];
     model1.title = @"名字";
     model1.indicatorTitle = @"kyson";
+    model1.indicatorImageUrl = @"https://img3.duitang.com/uploads/item/201508/07/20150807082213_AcdWu.jpeg";
     
     YSStaticDefaultModel *model2 = [[YSStaticDefaultModel alloc] init];
     model2.title = @"微信号";
