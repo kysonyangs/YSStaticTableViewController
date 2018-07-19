@@ -11,7 +11,6 @@
 
 #define YSScreenWidth      [UIScreen mainScreen].bounds.size.width
 #define YSLeftGap 15
-#define YSIndicatorArrow @"arrow"
 
 @implementation YSStaticTableViewCell
 
@@ -167,7 +166,8 @@
 
 - (UIImageView *)indicatorArrow {
     if (!_indicatorArrow) {
-        _indicatorArrow = [[UIImageView alloc] initWithImage:[UIImage imageNamed:@"YSStaticTableViewController.bundle/arrow@2x.png"]];
+        NSBundle *bundle = [NSBundle bundleForClass:[self class]];
+        _indicatorArrow = [[UIImageView alloc] initWithImage:[UIImage imageNamed:@"arrow" inBundle:bundle compatibleWithTraitCollection:nil]];
     }
     return _indicatorArrow;
 }

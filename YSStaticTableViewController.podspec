@@ -16,7 +16,7 @@ Pod::Spec.new do |s|
   #
 
   s.name         = "YSStaticTableViewController"
-  s.version      = "0.0.2"
+  s.version      = "0.0.3"
   s.summary      = "个人中心以及设置界面."
 
   # This description is used to generate tags and improve search results.
@@ -92,7 +92,7 @@ Pod::Spec.new do |s|
   #
 
   s.source_files  = "YSStaticTableViewController/*.{h,m}"
-  s.resources = "YSStaticTableViewController/YSStaticTableViewController.bundle"
+  s.resources = "YSStaticTableViewController/Resource/*.png"
   # s.exclude_files = "Classes/Exclude"
 
   # s.public_header_files = "Classes/**/*.h"

@@ -22,7 +22,7 @@
 		48F9F93E2100604A00C89F36 /* YSStaticSectionModel.m in Sources */ = {isa = PBXBuildFile; fileRef = 48F9F9372100604A00C89F36 /* YSStaticSectionModel.m */; };
 		48F9F93F2100604A00C89F36 /* YSStaticTableViewCell.m in Sources */ = {isa = PBXBuildFile; fileRef = 48F9F9392100604A00C89F36 /* YSStaticTableViewCell.m */; };
 		48F9F9402100604A00C89F36 /* YSStaticTableViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 48F9F93B2100604A00C89F36 /* YSStaticTableViewController.m */; };
-		48F9F96421007FFC00C89F36 /* YSStaticTableViewController.bundle in Resources */ = {isa = PBXBuildFile; fileRef = 48F9F96321007FFC00C89F36 /* YSStaticTableViewController.bundle */; };
+		48F9F967210086E800C89F36 /* arrow@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 48F9F966210086E800C89F36 /* arrow@2x.png */; };
 		667092DF0D6427B7E8003D8A /* Pods_YSStaticTableViewControllerDemo.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = CDD8D3448B8EF1726CD7AA4D /* Pods_YSStaticTableViewControllerDemo.framework */; };
 /* End PBXBuildFile section */
 
@@ -55,7 +55,7 @@
 		48F9F9392100604A00C89F36 /* YSStaticTableViewCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = YSStaticTableViewCell.m; sourceTree = "<group>"; };
 		48F9F93A2100604A00C89F36 /* YSStaticTableViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = YSStaticTableViewController.h; sourceTree = "<group>"; };
 		48F9F93B2100604A00C89F36 /* YSStaticTableViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = YSStaticTableViewController.m; sourceTree = "<group>"; };
-		48F9F96321007FFC00C89F36 /* YSStaticTableViewController.bundle */ = {isa = PBXFileReference; lastKnownFileType = "wrapper.plug-in"; path = YSStaticTableViewController.bundle; sourceTree = "<group>"; };
+		48F9F966210086E800C89F36 /* arrow@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "arrow@2x.png"; sourceTree = "<group>"; };
 		A14012680E55BED7E874C79C /* Pods-YSStaticTableViewControllerDemo.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-YSStaticTableViewControllerDemo.debug.xcconfig"; path = "Pods/Target Support Files/Pods-YSStaticTableViewControllerDemo/Pods-YSStaticTableViewControllerDemo.debug.xcconfig"; sourceTree = "<group>"; };
 		CDD8D3448B8EF1726CD7AA4D /* Pods_YSStaticTableViewControllerDemo.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_YSStaticTableViewControllerDemo.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		FA6F0E0880DB3D8996FC3254 /* Pods-YSStaticTableViewControllerDemo.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-YSStaticTableViewControllerDemo.release.xcconfig"; path = "Pods/Target Support Files/Pods-YSStaticTableViewControllerDemo/Pods-YSStaticTableViewControllerDemo.release.xcconfig"; sourceTree = "<group>"; };
@@ -153,7 +153,7 @@
 		48F9F9312100604A00C89F36 /* YSStaticTableViewController */ = {
 			isa = PBXGroup;
 			children = (
-				48F9F96321007FFC00C89F36 /* YSStaticTableViewController.bundle */,
+				48F9F965210086E800C89F36 /* Resource */,
 				48F9F9342100604A00C89F36 /* YSStaticCellModel.h */,
 				48F9F9352100604A00C89F36 /* YSStaticCellModel.m */,
 				48F9F9362100604A00C89F36 /* YSStaticSectionModel.h */,
@@ -165,6 +165,14 @@
 			);
 			name = YSStaticTableViewController;
 			path = ../../YSStaticTableViewController;
+			sourceTree = "<group>";
+		};
+		48F9F965210086E800C89F36 /* Resource */ = {
+			isa = PBXGroup;
+			children = (
+				48F9F966210086E800C89F36 /* arrow@2x.png */,
+			);
+			path = Resource;
 			sourceTree = "<group>";
 		};
 		8AB3C9F6E3303CD0797082A9 /* Pods */ = {
@@ -245,7 +253,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				48E2CA1920FF05300071D00D /* LaunchScreen.storyboard in Resources */,
-				48F9F96421007FFC00C89F36 /* YSStaticTableViewController.bundle in Resources */,
+				48F9F967210086E800C89F36 /* arrow@2x.png in Resources */,
 				48E2CA1620FF05300071D00D /* Assets.xcassets in Resources */,
 				48E2CA1420FF05300071D00D /* Main.storyboard in Resources */,
 			);
