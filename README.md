@@ -1,0 +1,2 @@
+# YSStaticTableViewController
+快速搭建个人中心以及设置界面
